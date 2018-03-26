@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kunal.spinthebottle.MainActivity"
+    android:background="@drawable/pic"
+    >
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/cocacola"
+
+
+        />
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:text="SPIN THE BOTTLE"
+        android:elevation="66dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#f5f2f2"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@drawable/ripple_effect"
+        android:alpha="0.9"
+        />
+
+        >
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/border2"
+
+            />
+
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/divyathakur2"
+        />
+
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="274dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/border2"
+
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="277dp"
+        android:background="@drawable/apoorva"
+        />
+
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/border2"
+
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407dp"
+        android:background="@drawable/psbankar2"
+        />
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/border2"
+
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/deepam"
+        />
+
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="274dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/border2"
+
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="277dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/suhaansh"
+        />
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/border2"
+
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/flyimgkripto"
+        />
+
+</RelativeLayout>
